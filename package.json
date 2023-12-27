@@ -1,0 +1,15 @@
+{
+    "name": "spritezero-api",
+    "version": "1.0.0",
+    "description": "API to create sprites from SVG icons using spritezero-cli",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express":"^4.18.2",
+        "multer":"^1.4.5-lts.1",
+        "archiver":"^6.0.1",
+        "@indoorequal/spritezero-cli": "^3.0.1"
+    }
+}

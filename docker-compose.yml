@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  spritezero-api:
+    image: spritezero-api
+    platform: linux/x86_64
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+    ports:
+      - 3000:3000
